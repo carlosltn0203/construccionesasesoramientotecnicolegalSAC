@@ -144,9 +144,11 @@ nav a:hover{
 
 
   .texto h1{
-    margin-bottom: 25px;
+  margin-bottom: 25px;
     font-size: 45px;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
   }
   .texto {
     position: absolute;
@@ -196,10 +198,13 @@ nav a:hover{
 }
 
 .texto p{
-    font-family: 'Times New Roman', Times, serif;
+      font-family: 'Times New Roman', Times, serif;
     padding: auto;
-    color: #FEFFED;
+    color: black;
+    font-size: 25px;
     text-shadow: 4px 4px 5px white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
 }
 
 @keyframes slide{
